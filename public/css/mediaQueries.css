@@ -1,0 +1,206 @@
+@media (max-width: 1400px) {
+  #projects {
+    height: auto; }
+  .projectGrid {
+    display: block !important;
+    text-align: center; }
+    .projectGrid .project {
+      margin: 20px auto; }
+      .projectGrid .project img {
+        border: 1px solid #ebebeb;
+        height: auto !important;
+        width: 100% !important; }
+        .projectGrid .project img:hover {
+          transform: scale(1.1);
+          transition: transform .8s ease; }
+  #about {
+    font-family: 'Nobile', sans-serif !important;
+    margin: 0 auto;
+    background-color: rgba(24, 11, 71, 0.952);
+    height: auto; }
+    #about .aboutGrid {
+      width: 80%;
+      margin: 0 auto;
+      display: block;
+      padding: 80px 0 0 0; }
+      #about .aboutGrid div h1 {
+        color: rgba(255, 255, 255, 0.726);
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 0 0 20px 0; }
+      #about .aboutGrid div p {
+        color: rgba(255, 255, 255, 0.829);
+        font-size: 0.9rem;
+        line-height: 1.5rem; }
+      #about .aboutGrid div .contact {
+        color: rgba(255, 255, 255, 0.829);
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 60px 0 30px 0; } }
+
+@media (max-width: 995px) {
+  nav.navbar {
+    background: rgba(0, 0, 0, 0.548);
+    text-align: center; }
+  #head {
+    z-index: 5;
+    background: url(img/wombat.png) no-repeat center;
+    width: 100%;
+    height: 975px;
+    padding: 250px 0 0 0; }
+    #head .yoko {
+      position: relative;
+      text-align: center;
+      opacity: 0;
+      animation: 6s yoko ease .5s forwards;
+      padding: 0px 0 0 0;
+      margin: 0 auto;
+      width: 80%;
+      z-index: 5; }
+      #head .yoko p {
+        color: whitesmoke !important;
+        text-shadow: 2px 1px 2px #1a1a1a;
+        font-size: 3rem;
+        z-index: 5 !important; }
+    #head .headInfo {
+      margin: 0 auto;
+      padding: 20px;
+      color: white;
+      text-align: center;
+      width: 720px;
+      height: 50%;
+      border-radius: 25px;
+      opacity: 0;
+      animation: headFade 1s ease-in 400ms forwards; }
+      #head .headInfo h1 {
+        font-size: 3rem;
+        margin: 20px 0 50px 0; }
+      #head .headInfo p {
+        font-size: 1.4rem; }
+      #head .headInfo span {
+        color: #aa8dc5; }
+  #connect {
+    font-family: 'Nobile', sans-serif !important;
+    height: auto;
+    background-color: #f8f8f8;
+    margin: auto;
+    padding: 40px 10% 50px 10%; }
+    #connect .connectGrid {
+      display: block; }
+      #connect .connectGrid h4 {
+        text-align: center;
+        border-bottom: 1px solid #ececec;
+        width: 250px;
+        padding: 0 0 20px 45px;
+        margin: 0 0 20px 0; }
+      #connect .connectGrid p {
+        text-align: center;
+        font-size: .8rem;
+        width: 80%;
+        padding: 0 0 20px 50px; }
+      #connect .connectGrid .iconGrid {
+        margin: 10px 0 0 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr; }
+        #connect .connectGrid .iconGrid div {
+          position: relative;
+          border: 2px solid #aa8dc5;
+          width: 70px;
+          height: 70px;
+          transform: rotate(45deg); }
+        #connect .connectGrid .iconGrid i {
+          padding-top: 26px;
+          padding-left: 13px;
+          font-size: 30px;
+          transform: rotate(-45deg); } }
+
+@media (max-width: 768px) {
+  .icons {
+    display: none; }
+  #head {
+    z-index: 5;
+    background: url(img/wombat.png) no-repeat center;
+    width: 100%;
+    height: 700px;
+    padding: 200px 0 0 0; }
+    #head .clouds {
+      display: none; }
+    #head .yoko {
+      position: relative;
+      text-align: center;
+      opacity: 0;
+      animation: 6s yoko ease .5s forwards;
+      padding: 0 0 0 0;
+      margin: 0 auto;
+      width: 80%;
+      z-index: 5; }
+      #head .yoko p {
+        color: whitesmoke !important;
+        text-shadow: 2px 1px 2px #1a1a1a;
+        font-size: 2rem;
+        z-index: 5 !important; }
+    #head .headInfo {
+      margin: 0 auto;
+      padding: 20px;
+      color: white;
+      text-align: center;
+      width: 300px;
+      height: auto;
+      border-radius: 25px;
+      opacity: 0;
+      animation: headFade 1s ease-in 6500ms forwards; }
+      #head .headInfo h1 {
+        font-size: 2rem;
+        margin: 10px 0 20px 0; }
+      #head .headInfo p {
+        font-size: 1rem; }
+      #head .headInfo span {
+        color: #aa8dc5; }
+  #skills {
+    height: 885px; }
+  .bigThree {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 300px !important;
+    margin: 0 auto; }
+    .bigThree div {
+      margin: 20px 0 0 0;
+      text-align: center; }
+      .bigThree div img {
+        height: 100px;
+        width: auto; }
+  .skillGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr !important;
+    grid-gap: 20px;
+    width: 90% !important;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0 0 0; }
+    .skillGrid div {
+      background-color: #aa8dc5;
+      color: whitesmoke;
+      padding: 10px;
+      border-radius: 25px;
+      border: 2px solid whitesmoke;
+      border: 2px solid #aa8dc5;
+      transition: color .8s ease;
+      transition: background-color 0.5s ease; }
+      .skillGrid div:hover {
+        color: red;
+        background-color: whitesmoke;
+        border: 2px solid #aa8dc5;
+        box-sizing: border-box; }
+  .project {
+    width: 100%;
+    margin: 20px auto; }
+    .project img {
+      border: 1px solid #ebebeb;
+      height: auto !important;
+      width: 100% !important; }
+      .project img:hover {
+        transform: scale(1.1);
+        transition: transform .8s ease; } }

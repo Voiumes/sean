@@ -1,0 +1,319 @@
+*{
+    
+    scroll-behavior: smooth;
+    padding:0;
+    margin:0;
+}
+#space{
+    height: 2000px;
+}
+#nav{
+    height: 66px;
+    position: fixed;
+    top:0;
+    background-color: rgba(0, 0, 0, 0.685); 
+    width: 100%;
+    border-bottom: 1px solid white;
+    z-index: 6;
+    .icons{
+        font-size: 2rem;
+        margin: 0 0 0 20px;
+        a{
+            color:white;
+            margin: 0 10px 0 0;
+            transition: .2s color ease;
+            &:hover{
+                color: rgb(170, 141, 197) !important;
+            }
+        }
+    }
+    
+    .navbar{
+        padding:0 80px !important;
+        z-index: 6;
+    }
+    .logo{
+        background-image: url(img/Volume.png);
+        background-size: cover;         
+        height: 60px;
+        width: 60px;
+    }
+    .nav-link{
+        color:whitesmoke !important;
+        font-size: 1.2rem;
+        margin: 0 20px;
+        transition: color 0.3s ease;
+        z-index: 6 !important;
+        &:hover{
+           color: rgb(170, 141, 197) !important;
+        }
+    }
+}
+
+.displaynone{
+    display: none;
+}
+
+#head{
+    font-weight: 500;
+    z-index: 5;
+    background: url(img/wombat.png)no-repeat center;
+    width: 100%;
+    height: 975px;
+    padding: 350px 0 0 0;
+    .yoko{
+        font-family: 'Nobile', sans-serif !important;
+        position: relative;
+        text-align: center;
+        opacity: 0;
+        animation: 6s yoko ease .5s forwards;
+        padding: 38px 0 0 0;
+        margin:0 auto;
+        width: 40%;
+        z-index: 5;
+        font-style: italic !important;
+    
+        p{
+        color: whitesmoke !important;
+        text-shadow: 2px 1px 2px rgb(26, 26, 26);
+        font-size: 2.2rem;
+        z-index: 5 !important;
+        }
+        
+    }
+
+    .headInfo{
+        font-family: 'Nobile', sans-serif !important;
+        margin: 0 auto;
+        padding:20px;
+        background-color: rgba(0, 0, 0, 0.644);
+        color: white;
+        text-align: center;
+        width:820px;
+        height: 50%;
+        border-radius: 25px;
+        opacity: 0;
+        animation: headFade 1s ease-in-out 6400ms forwards;
+        h1{
+            font-size: 4rem;
+            margin: 20px 0 50px 0;
+        }
+        p{
+            font-size: 1.1rem;
+        }
+        span{
+            color:rgb(170, 141, 197);
+        }
+        
+
+    }
+
+}
+
+#skills{
+    font-family: 'Nobile', sans-serif !important;
+    background-color: rgb(248, 248, 248);
+    height: 720px;
+    .skill-title{
+        padding: 100px 0 0 0;
+        text-align: center;
+            h1{
+                font-size: 1.5rem;
+                letter-spacing: 0.05vw;
+            }
+            p{
+                font-size: 1rem;
+            }
+        
+    }
+    .bigThree{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 400px;
+        margin: 0 auto;
+        div{
+            margin: 50px 0 0 0;
+            text-align: center;
+            img{
+                height: 100px;
+                width: auto;
+            }
+        }
+    }
+    .skillGrid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 20px;
+        width: 900px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 80px 0 0 0;
+        div{
+            background-color: rgb(170, 141, 197);
+            color:whitesmoke;
+            padding: 10px;
+            border-radius: 25px;
+            border: 2px solid whitesmoke;
+            transition: color .8s ease;
+            transition: background-color 0.5s ease;
+            &:hover{
+                color: rgb(170, 141, 197);
+                background-color:whitesmoke;
+                border: 2px solid rgb(170, 141, 197);
+                box-sizing: border-box;
+            }
+            i{
+                padding-left: 10px;
+                font-size: 1.2rem;
+            }
+        }
+
+    }
+    
+}
+
+#projects{
+    font-family: 'Nobile', sans-serif !important;
+    text-align: center;
+    height: 975px;
+    width: 55%;
+    margin: 0 auto;
+    h1{
+        padding: 80px 0 0 0;
+        font-size: 1.6rem;
+    }
+    p{
+        padding-bottom: 10px;
+        font-size: 16px;
+    }
+    .projectGrid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 40px;
+        .project{
+            .pimg{
+                height: 350px;
+                width: 500px;
+                border: 1px solid rgb(58, 13, 70);
+                &:hover{
+                transform: scale(1.1);
+                transition: transform .3s ease;
+                }
+                &:active{
+                transform: scale(1.0);
+                transition: transform .1s;
+                }
+            }              
+        }
+        .modal-body{
+            img{
+                height: 500px;
+                width: 80%;
+                margin: 0 0 20px 0;
+            }
+            li{
+                list-style: none;
+            }
+
+        }
+        .modal-footer{
+            a{
+                text-decoration: none;
+                color:whitesmoke;
+                background-color: rgb(170, 141, 197);
+                padding:8px 8px 5px 8px;
+                border-radius: 25px;
+                &:hover{
+                    transform: scale(1.05);
+                    transition: transform .3s ease-in-out;
+                }
+            }
+        }
+    }
+}
+
+#connect{
+    font-family: 'Nobile', sans-serif !important;
+    height: 300px;
+    background-color: rgb(248, 248, 248);
+    margin: 0 auto;
+    padding: 90px 20% 0 20%;
+    .connectGrid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        h4{
+            border-bottom: 1px solid rgb(236, 236, 236);
+            width: 250px;
+            padding: 0 0 20px 0;
+            margin: 0 0 20px 0;
+        }
+        p{
+            font-size: .8rem;
+        }
+        .iconGrid{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            margin: 20px 0 0 0;
+            div{
+                border: 2px solid  rgb(170, 141, 197);
+                width: 70px;
+                height: 70px;
+                transform: rotate(45deg);
+                &:hover{
+                    background-color:rgb(170, 141, 197);
+                }
+                i{
+                    padding-top: 23px;
+                    padding-left: 22px;
+                    padding-right: 12px;
+                    padding-bottom: 23px;
+                    font-size: 30px;
+                    transform: rotate(-45deg);
+                  
+                }
+                a{
+                    color: rgb(170, 141, 197);
+                    &:hover{
+                        color:white;
+                    }
+                    
+                }
+            }
+
+        }
+        
+    }
+}
+#about{
+    font-family: 'Nobile', sans-serif !important;
+    margin: 0 auto;
+    background-color: rgba(24, 11, 71, 0.952); 
+    height: 600px;
+    .aboutGrid{
+        width: 60%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 150px 0 0 0;
+        div{
+            h1{
+                color:rgba(255, 255, 255, 0.726);
+                font-size: 1.5rem;
+            }
+            p{
+                color: rgba(255, 255, 255, 0.829);
+                font-size: 0.9rem;
+                line-height: 1.5rem;
+            }
+            .contact{
+                color: rgba(255, 255, 255, 0.829);
+                font-size: 0.9rem;
+                line-height: 1.5rem;
+                width: 40%;
+                margin: 0 auto;
+            }
+        }
+    }
+
+
+}
