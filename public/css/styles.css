@@ -6,7 +6,7 @@
 #space {
   height: 2000px; }
 
-#nav {
+#nav div {
   height: 66px;
   position: fixed;
   top: 0;
@@ -14,30 +14,30 @@
   width: 100%;
   border-bottom: 1px solid white;
   z-index: 6; }
-  #nav .icons {
+  #nav div .icons {
     font-size: 2rem;
     margin: 0 0 0 20px; }
-    #nav .icons a {
+    #nav div .icons a {
       color: white;
       margin: 0 10px 0 0;
       transition: .2s color ease; }
-      #nav .icons a:hover {
+      #nav div .icons a:hover {
         color: #aa8dc5 !important; }
-  #nav .navbar {
+  #nav div .navbar {
     padding: 0 80px !important;
     z-index: 6; }
-  #nav .logo {
+  #nav div .logo {
     background-image: url(img/Volume.png);
     background-size: cover;
     height: 60px;
     width: 60px; }
-  #nav .nav-link {
+  #nav div .nav-link {
     color: whitesmoke !important;
     font-size: 1.2rem;
     margin: 0 20px;
     transition: color 0.3s ease;
     z-index: 6 !important; }
-    #nav .nav-link:hover {
+    #nav div .nav-link:hover {
       color: #aa8dc5 !important; }
 
 .displaynone {
