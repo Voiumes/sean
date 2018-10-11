@@ -194,9 +194,13 @@
         background-color: whitesmoke;
         border: 2px solid #aa8dc5;
         box-sizing: border-box; }
+  .projects {
+    height: auto;
+    padding: 0 0 100px 0; }
   .project {
     width: 100%;
-    margin: 20px auto; }
+    margin: 20px auto;
+    height: 250px; }
     .project img {
       border: 1px solid #ebebeb;
       height: auto !important;
