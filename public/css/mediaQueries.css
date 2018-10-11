@@ -172,6 +172,8 @@
       .bigThree div img {
         height: 100px;
         width: auto; }
+  .skill-title {
+    width: 80%; }
   .skillGrid {
     display: grid;
     grid-template-columns: 1fr 1fr !important;
