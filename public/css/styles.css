@@ -113,7 +113,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 20px;
-    width: 900px;
+    width: 55%;
     margin: 0 auto;
     text-align: center;
     padding: 80px 0 0 0; }
@@ -149,10 +149,11 @@
   #projects .projectGrid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 40px; }
+    grid-gap: 40px;
+    width: 100%; }
     #projects .projectGrid .project .pimg {
       height: 350px;
-      width: 500px;
+      width: 100%;
       border: 1px solid #3a0d46; }
       #projects .projectGrid .project .pimg:hover {
         transform: scale(1.1);

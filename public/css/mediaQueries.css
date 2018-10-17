@@ -160,7 +160,8 @@
       #head .headInfo span {
         color: #aa8dc5; }
   #skills {
-    height: 885px; }
+    height: auto;
+    padding: 0 0 40px 0; }
   .bigThree {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -197,13 +198,15 @@
         background-color: whitesmoke;
         border: 2px solid #aa8dc5;
         box-sizing: border-box; }
+  #projects {
+    width: 75% !important;
+    height: auto !important; }
   .projects {
-    height: auto;
-    padding: 0 0 100px 0; }
+    height: auto; }
   .project {
     width: 100%;
     margin: 20px auto;
-    height: 190px; }
+    height: auto; }
     .project img {
       border: 1px solid #ebebeb;
       height: auto !important;

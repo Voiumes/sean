@@ -220,7 +220,8 @@
     
     }
     #skills{
-        height: 885px;
+        height: auto;
+        padding: 0 0 40px 0;
     }
     .bigThree{
         display: grid;
@@ -265,14 +266,18 @@
             }
         }
     }
+    #projects{
+        width: 75% !important;
+        height: auto !important;
+    }
     .projects{
         height: auto;
-        padding: 0 0 100px 0;
+
     }
     .project{
         width: 100%;
         margin:20px auto;
-        height: 190px;
+        height: auto;
         img{
             border: 1px solid rgb(235, 235, 235);
             height: auto !important;
